@@ -1,0 +1,15 @@
+export const TimeLinePanelEvent = {
+    ZOOMIN : 'zoomIn',
+    ZOOMOUT : 'zoomOut',
+    SCROLLRIGHT : 'scrollRight',
+    SCROLLLEFT : 'scrollLeft' ,
+    SCROLLTOTIME : 'scrollToTime',
+    NEXTSECOND : 'nextSecond',
+    UPDATECURRENTTIME : 'updateCurrentTime',
+    UPDATESELECTOR : 'updateSelector',
+    GETCURRENTSELECTEDSCENE : 'getCurrentSelectedScene',
+    CURRENTSELECTEDSCENE : 'currentSelectedScene',
+    INSERTSCENEFROMSLIDER:'insertSceneFromSlider',
+    EDITSCENE:'editScene',
+    REMOVEDITSOURCE:'removeEditSource',
+}
